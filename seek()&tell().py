@@ -1,0 +1,5 @@
+f1=open("buddha.txt","r")
+print(f1.tell())
+print(f1.readline())
+print(f1.seek(0))
+print(f1.readline())
